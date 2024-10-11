@@ -16,7 +16,7 @@ body{
     font-size: xx-large;
     color: white;
     position: absolute;
-    top: 15px;
+    top: 5vh;
     left: 600px;
 }
 
@@ -77,11 +77,19 @@ a:hover {
     
 }
 
+.projects{
+    position:absolute;
+    top: 45px;
+    left: 1030px;
+    
+}
+
 .links{
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
-    font-style: normal;   
+    font-style: normal;  
+     
 }
 
 .contacth{
@@ -117,3 +125,167 @@ a:hover {
     bottom: 300px;
     left:850px ;
 }
+
+.PROJ-OTW{
+    position: absolute;
+    top: 40%;
+
+    left: 33%;
+    right: 33%;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: xx-large;
+    color: white;
+
+}
+
+.invert { filter: invert(100%); }
+
+.github{
+    position: absolute;
+    bottom: 180px;
+    left:610px ;
+}
+
+@media(max-width:480px) {
+    .top{
+        font-family: "DM Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 1000;
+        font-style: italic;
+        font-size:50px;
+        color: white;
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+    }
+
+
+    .centerleft {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        text-align:left;
+        position: absolute;
+        top: 20vh;
+        left: 8vw;
+        font-size: 20px;
+        width: 350px;
+        color: white;
+        
+        
+    }
+
+    .topleft {
+        position: absolute;
+        top: 2.5vh;
+        left: 5vw;
+        font-size: 20px;
+
+        font-weight: 400;
+        font-style: italic;
+      
+    }
+
+    .posi-photo{
+
+        position:absolute;
+        left:3vw;
+        top: 35vh;
+        
+        color: white;
+        
+        
+    }
+
+    .logopos{
+        position:absolute;
+        top: -2vh;
+        left: 60vw;
+        width: 0px;
+    }
+    
+    
+      .contact{
+        position:absolute;
+        top: 7vh;
+        left: 64vw;
+        font-size: x-large;
+        
+    }
+    
+    .projects{
+        position:absolute;
+        top: 11vh;
+        left: 64vw;
+        font-size: x-large;
+        
+    }
+
+
+    .contacth{
+        position: absolute;
+        top:10vh;
+        left:14vw;
+        font-family: "Bowlby One", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 60px;
+    } 
+
+
+    /* ###############PC icons hidding######################*/ 
+
+    .instapos{
+        display: none;
+        position: absolute;
+        bottom: 300px;
+        left:400px ;
+    }
+    .twipos{
+        display: none;
+        position: absolute;
+        bottom: 300px;
+        left:550px ;
+    }
+    
+    .lnpos{
+        display: none;
+        position: absolute;
+        bottom: 300px;
+        left:700px ;
+    }
+    .whpos{
+        display: none;
+        position: absolute;
+        bottom: 300px;
+        left:850px ;
+    }
+    
+    /* ###############mobile icons######################*/ 
+    .instapos1{
+        position: absolute;
+        top: 23vh;
+        left: 19vh ;
+    }
+    .twipos1{
+        position: absolute;
+        top: 43vh;
+        left:19vh ;
+    }
+    
+    .lnpos1{
+        position: absolute;
+        top: 63vh;
+        left:19vh ;
+    }
+    .whpos1{
+        position: absolute;
+        top: 83vh;
+        left:19vh ;
+    }
+}
+
