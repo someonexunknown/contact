@@ -227,7 +227,7 @@ a:hover {
 
     .contacth{
         position: absolute;
-        top:10vh;
+        top:6vh;
         left:14vw;
         font-family: "Bowlby One", sans-serif;
         font-optical-sizing: auto;
@@ -268,23 +268,23 @@ a:hover {
     /* ###############mobile icons######################*/ 
     .instapos1{
         position: absolute;
-        top: 23vh;
+        top: 20vh;
         left: 19vh ;
     }
     .twipos1{
         position: absolute;
-        top: 43vh;
+        top: 40vh;
         left:19vh ;
     }
     
     .lnpos1{
         position: absolute;
-        top: 63vh;
+        top: 60vh;
         left:19vh ;
     }
     .whpos1{
         position: absolute;
-        top: 83vh;
+        top: 80vh;
         left:19vh ;
     }
 }
